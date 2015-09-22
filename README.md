@@ -18,19 +18,21 @@
 
 ### What is HTML?
 
-HTML, or Hyper Text Markup Language, is a markup language which describes the structure of web pages. Web browsers, such as Mozilla Firefox, Internet Explorer, and Google Chrome, interpret the HTML code and use it to render some output. HTML doesn't have any logic behind it, like Ruby and other programming languages. Instead, it simply surrounds content and tells web browsers how that content should be displayed.
+HTML, or Hyper Text Markup Language, is a markup language which describes the structure of web pages and how content should be displayed. Web browsers, such as Mozilla Firefox, Internet Explorer, and Google Chrome, interpret the HTML code and use it to render output. Unlike Ruby and other programming languages, markup languages like HTML don't have any logic behind them. Instead, they simply surround content and tell web browsers how that content should be displayed.
 
-More simply, HTMl is the language of the web. Every web page you've ever visited is structured using HTML code. Being able to read and understand an HTML document is one of the most important tools in a developer's toolbox.
+Generally speaking, HTML is the language of the web. Every web page you've ever visited is structured using HTML code. Being able to read and understand an HTML document is one of the most important tools in a developer's toolbox.
 
 ### HTML Syntax
 
-HTML consists of different elements, which consist of opening and closing tags. For example, say we had the content `Hello World` that we wanted to display as a separate paragraph. We could use the `p` element, which consists of an opening `p` tag and a closing `p` tag. 
+HTML consists of different elements. Each element consists of tags, which wrap around content. For example, say we wanted `Hello World` to appear as a separate paragraph. We could use the `p` element, which consists of an opening `p` tag and a closing `p` tag. 
 
 ```html
 <p>Hello World</p>
 ```
 
-We can also add any number of attributes inside of the opening tags. For example, the `a` element which is used for links,  has an `href` attribute to determine the address of the link. If we wanted to link to www.flatironschool.com, we could do so as follows:
+Elements, like our `p` tags above, won't be displayed in the browser. Instead, they affect how the content itself is displayed. 
+
+We can also alter any number of attributes inside of the opening tags. For example, the `a` element which is used for links,  has an `href` attribute to determine the address of the link. If we wanted to link to www.flatironschool.com, we could do so as follows:
 
 ```html
 <a href="http://www.flatironschool.com">Flatiron School</a>
@@ -48,7 +50,7 @@ We can also nest elements inside of each other. To have a link displayed as a se
 
 ### Basic Document Structure
 
-Let's look at the basic structure of html code. HTML begins with a "doctype declaration" tag, which tells our web browser which version of HTML to use. To use HTML5, the current up-to-date version, we can simply declare `<!DOCTYPE html>`. 
+Let's look at the basic structure of and HTML document. HTML begins with a "doctype declaration" tag, which tells our web browser which version of HTML to use. Since it's not wrapping any content, our doctype declaration doesn't require a closing tag. To use HTML5, the current up-to-date version, we can simply declare `<!DOCTYPE html>`. 
 
 ```html
 <!DOCTYPE html>
@@ -84,18 +86,20 @@ Every HTML page is made up of two sections, a `head` and a `body`. The `head` el
 
 ### Common HTML elements
 
-We've already looked at some common HTML elements, such as `a` and `p`. Let's take a look at some more basic HTML elements.
+We've already looked at some common HTML elements, such as `a` and `p`. Let's take a look at some more HTML elements.
 
-#### Header
+#### Headers
 
-HTML gives us access to different header elements, ranging from `h1` to `h6`, with `h1` being the largest and `h6` being the smallest. Header tags display text larger or smaller on our page and also tell search engines what our pages are about. 
+HTML gives us access to different header elements, ranging from `h1` to `h6`, with `h1` being the largest and `h6` being the smallest. 
 
 ```html
 <h1>Dogs!</h1>
 <h3>Why Dogs are Great</h3>
 	
-<h3>Different Breeds</h3>	
+<h6>Different Breeds</h6>	
 ```
+
+In addition to changing how the text is displayed, search engines use headers to help determine what a web page is about. 
 
 #### Images
 
@@ -105,7 +109,7 @@ We can embed images in our web pages using the `img` element. The `img` element 
 
 #### Lists
 
-Some other useful HTML elements are lists. We can make bulleted, or unordered lists, using opening and closing `ul` tags. Inside, we can nest an `li`, or "list item", element for each item in our list. 
+Some other useful HTML elements are lists. We can make bulleted, or unordered lists, using opening and closing `ul` tags. Inside, we can nest an `li`, or "list item" element for each item in our list. 
 
 ```html
 <h5>My Favorite Things in No Particular Order</h5>
