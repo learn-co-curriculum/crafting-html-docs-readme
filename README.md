@@ -16,8 +16,6 @@
 
 ## Lesson
 
-To get started, fork and clone 
-
 ### What is HTML?
 
 HTML, or Hyper Text Markup Language, is a markup language which describes the structure of web pages. Web browsers, such as Mozilla Firefox, Internet Explorer, and Google Chrome, interpret the HTML code and use it to render some output. HTML doesn't have any logic behind it, like Ruby and other programming languages. Instead, it simply surrounds content and tells web browsers how that content should be displayed.
