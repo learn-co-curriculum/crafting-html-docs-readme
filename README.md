@@ -1,18 +1,9 @@
 # What is HTML? 
 
-## Outline
-
-1. HTML, or "HyperText Markup Language", is a markup language that web browsers use to determine the structure of content
-2. We write HTML using tags to surround content.
-3. Web browsers use HTML to determine how our content should be displayed.
-4. Many search engines use HTML tags to determine what web pages are about. 
-5. Explain the purpose of `html`, `head`, and `body` tags.
-6. List some commonly used tags and explain their purpose (`h1`, `p`, `ul`, `ol`, `img`, `a`)
-
 ## Objectives
 1. Explain what HTML is and why it's important in the context of web development
-2. Read a basic HTML document and understand the structure
-3. Understand and use basic HTML tags
+2. Read a basic HTML document 
+3. Use basic HTML tags
 
 ## Lesson
 
