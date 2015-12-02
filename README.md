@@ -161,3 +161,5 @@ We can also include comments in our HTML code. These won't get rendered to the b
 ## Resources
 
 [HTML Fundamentals](https://www.youtube.com/watch?v=tuDKQxfiXmY)
+
+<a href='https://learn.co/lessons/what-is-html' data-visibility='hidden'>View this lesson on Learn.co</a>
