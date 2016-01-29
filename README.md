@@ -162,4 +162,4 @@ We can also include comments in our HTML code. These won't get rendered to the b
 
 [HTML Fundamentals](https://www.youtube.com/watch?v=tuDKQxfiXmY)
 
-<a href='https://learn.co/lessons/what-is-html' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/what-is-html' title='What is HTML?'>What is HTML?</a> on Learn.co and start learning to code for free.</p>
