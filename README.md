@@ -3,19 +3,19 @@
 ## Objectives
 1. Explain what HTML is and why it's important in the context of web development
 2. Read a basic HTML document 
-3. Use basic HTML tags
+3. Write basic HTML tags
 
 ## Lesson
 
 ### What is HTML?
 
-HTML, or Hyper Text Markup Language, is a markup language which describes the structure of web pages and how content should be displayed. Web browsers, such as Mozilla Firefox, Internet Explorer, and Google Chrome, interpret the HTML code and use it to render output. Unlike Ruby and other programming languages, markup languages like HTML don't have any logic behind them. Instead, they simply surround content and tell web browsers how that content should be displayed.
+HTML, or Hyper Text Markup Language, is a markup language which describes the structure and semantic meaning of web pages. Web browsers, such as Mozilla Firefox, Internet Explorer, and Google Chrome, interpret the HTML code and use it to render output. Unlike Ruby, JavaScript and other programming languages, markup languages like HTML don't have any logic behind them. Instead, they simply surround the content to convey structure and meaning.
 
-Generally speaking, HTML is the language of the web. Every web page you've ever visited is structured using HTML code. Being able to read and understand an HTML document is one of the most important tools in a developer's toolbox.
+Every web page you've ever visited is structured using HTML code. Being able to read and understand an HTML document is one of the most important tools in a developer's toolbox.
 
 ### HTML Syntax
 
-HTML consists of different elements. Each element consists of tags, which wrap around content. For example, say we wanted `Hello World` to appear as a separate paragraph. We could use the `p` element, which consists of an opening `p` tag and a closing `p` tag. 
+HTML consists of different elements. Each element consists of tags, which wrap around content. For example, say we wanted `Hello World` to appear as a paragraph. We could use the `p` element, which consists of an opening `p` tag and a closing `p` tag. 
 
 ```html
 <p>Hello World</p>
@@ -41,14 +41,14 @@ We can also nest elements inside of each other. To have a link displayed as a se
 
 ### Basic Document Structure
 
-Let's look at the basic structure of and HTML document. HTML begins with a "doctype declaration" tag, which tells our web browser which version of HTML to use. Since it's not wrapping any content, our doctype declaration doesn't require a closing tag. To use HTML5, the current up-to-date version, we can simply declare `<!DOCTYPE html>`. 
+All HTML documents begin with a "doctype declaration" tag, which tells our web browser which version of HTML to use. Since it's not wrapping any content, our doctype declaration doesn't require a closing tag. To use HTML5, the current up-to-date version, we can simply declare `<!DOCTYPE html>`. 
 
 ```html
 <!DOCTYPE html>
 
 ```
 
-Next, we add an opening and closing `html` tag. This tells the web browser to interpret everything inside as HTML code. 
+Next, we add an opening and closing `html` tag. This tells the web browser to interpret everything inside the tags as HTML code. 
 
 ```html
 <!DOCTYPE html>
@@ -58,13 +58,13 @@ Next, we add an opening and closing `html` tag. This tells the web browser to in
 </html>
 ```
 
-Every HTML page is made up of two sections, a `head` and a `body`. The `head` element contains meta data and other information for the browser, while the `body` element contains the actual content which will be displayed. 
+Every HTML page is made up of two sections, a `head` and a `body`. The `head` element contains meta data about the HTML document and other information for the browser, while the `body` element contains the actual content. 
 
 ```html
 <!DOCTYPE html>
 <html>
 	<head>
-		<!-- data for the web browser will be in here -->
+		<!-- metadata about the content -->
 	
 	</head>
 	
@@ -155,11 +155,3 @@ We can also include comments in our HTML code. These won't get rendered to the b
 <h5>Top 5 Pizza Places in NYC</h5>
 <!-- This won't get rendered, just a helpful note -->
 ```
-
-
-
-## Resources
-
-[HTML Fundamentals](https://www.youtube.com/watch?v=tuDKQxfiXmY)
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/what-is-html' title='What is HTML?'>What is HTML?</a> on Learn.co and start learning to code for free.</p>
