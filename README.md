@@ -69,7 +69,7 @@ Every HTML page is made up of two sections, a `head` and a `body`. The `head` el
 	</head>
 	
 	<body>
-		<! -- content of our page will be here! -->
+		<!-- content of our page will be here! -->
 	
 	</body>
 </html>
