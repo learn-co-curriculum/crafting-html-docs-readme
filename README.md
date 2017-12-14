@@ -1,4 +1,4 @@
-# What is HTML? 
+# HTML Basics
 
 ## Objectives
 1. Explain what HTML is and why it's important in the context of web development
