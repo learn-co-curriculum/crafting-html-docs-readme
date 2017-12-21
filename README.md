@@ -64,7 +64,7 @@ Every HTML page is made up of two sections, a `head` and a `body`. The `head` el
 <!DOCTYPE html>
 <html>
 	<head>
-		<!-- metadata about the content -->
+		<!-- metadata about the HTML document as a whole -->
 	
 	</head>
 	
