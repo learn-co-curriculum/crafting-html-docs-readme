@@ -7,11 +7,15 @@
 
 ## Lesson
 
+### A quick HTML walkthrough
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/b1To1wP-ALo?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe><p><a href="https://www.youtube.com/watch?v=b1To1wP-ALo"> HTML walk through </a></p>
+
 ### What is HTML?
 
-HTML, or Hyper Text Markup Language, is a markup language which describes the structure and semantic meaning of web pages. Web browsers, such as Mozilla Firefox, Internet Explorer, and Google Chrome, interpret the HTML code and use it to render output. Unlike Ruby, JavaScript and other programming languages, markup languages like HTML don't have any logic behind them. Instead, they simply surround the content to convey structure and meaning.
+HTML, or HyperText Markup Language, is a markup language which describes the structure and semantic meaning of web pages. Web browsers, such as Mozilla Firefox, Internet Explorer, and Google Chrome, interpret the HTML code and use it to render output. Unlike Ruby, JavaScript and other programming languages, markup languages like HTML don't have any logic behind them. Instead, they simply surround the content to convey structure and meaning.
 
-Every web page you've ever visited is structured using HTML code. Being able to read and understand an HTML document is one of the most important tools in a developer's toolbox.
+Every web page you've ever visited is structured using HTML code. Being able to read and understand an HTML document is one of the most essential tools in a developer's toolbox.
 
 ### HTML Syntax
 
@@ -53,25 +57,25 @@ Next, we add an opening and closing `html` tag. This tells the web browser to in
 ```html
 <!DOCTYPE html>
 <html>
-	
+    
 
 </html>
 ```
 
-Every HTML page is made up of two sections, a `head` and a `body`. The `head` element contains meta data about the HTML document and other information for the browser, while the `body` element contains the actual content. 
+Every HTML page is made up of two sections, a `head` and a `body`. The `head` element contains metadata about the HTML document and other information for the browser, while the `body` element contains the actual content. 
 
 ```html
 <!DOCTYPE html>
 <html>
-	<head>
-		<!-- metadata about the HTML document as a whole -->
-	
-	</head>
-	
-	<body>
-		<!-- content of our page will be here! -->
-	
-	</body>
+    <head>
+        <!-- metadata about the HTML document as a whole -->
+    
+    </head>
+    
+    <body>
+        <!-- content of our page will be here! -->
+    
+    </body>
 </html>
 ```
 
@@ -86,28 +90,28 @@ HTML gives us access to different header elements, ranging from `h1` to `h6`, wi
 ```html
 <h1>Dogs!</h1>
 <h3>Why Dogs are Great</h3>
-	
-<h6>Different Breeds</h6>	
+    
+<h6>Different Breeds</h6>    
 ```
 
 In addition to changing how the text is displayed, search engines use headers to help determine what a web page is about. 
 
 #### Images
 
-We can embed images in our web pages using the `img` element. The `img` element doesn't have a closing tag. The `src` attribute tells the browser where to find the image. The `alt` attribute will be displayed if an image can't be loaded, and also describes the image to search engines.  
+We can embed images on our web pages using the `img` element. The `img` element doesn't have a closing tag. The `src` attribute tells the browser where to find the image. The `alt` attribute will be displayed if an image can't be loaded, and also describes the image to search engines.  
 
 `<img src="URL_TO_IMAGE" alt="Picture of a Dog">`
 
 #### Lists
 
-Some other useful HTML elements are lists. We can make bulleted, or unordered lists, using opening and closing `ul` tags. Inside, we can nest an `li`, or "list item" element for each item in our list. 
+Some other useful HTML elements are lists. We can make bulleted, or unordered lists, using opening and closing `ul` tags. Inside, we can nest an `li`, or "list item" element for each item on our list. 
 
 ```html
 <h5>My Favorite Things in No Particular Order</h5>
 <ul>
-	<li>Coffee</li>
-	<li>Vinyl Records</li>
-	<li>Pickling</li>
+    <li>Coffee</li>
+    <li>Vinyl Records</li>
+    <li>Pickling</li>
 </ul>
 ```
 
@@ -116,22 +120,22 @@ ____
 
 <h5>My Favorite Things in No Particular Order</h5>
 <ul>
-	<li>Coffee</li>
-	<li>Vinyl Records</li>
-	<li>Pickling</li>
+    <li>Coffee</li>
+    <li>Vinyl Records</li>
+    <li>Pickling</li>
 </ul>
 ____
 
-We can also make a numbered, or ordered list, using an `ol` tag. This functions in the same was as our unordered list, only with numbers instead of bullet points.
+We can also make a numbered, or ordered list, using an `ol` tag. 
 
 ```html
 <h5>Top 5 Pizza Places in NYC</h5>
 <ol>
-	<li>DiFara Pizza</li>
-	<li>Lucali's</li>
-	<li>Sal and Carmine's</li>
-	<li>Juliana's</li>
-	<li>Joe's</li>
+    <li>DiFara Pizza</li>
+    <li>Lucali's</li>
+    <li>Sal and Carmine's</li>
+    <li>Juliana's</li>
+    <li>Joe's</li>
 </ol>
 ```
 Would render as:
@@ -140,11 +144,11 @@ ____
 
 <h5>Top 5 Pizza Places in NYC</h5>
 <ol>
-	<li>DiFara Pizza</li>
-	<li>Lucali's</li>
-	<li>Sal and Carmine's</li>
-	<li>Juliana's</li>
-	<li>Joe's</li>
+    <li>DiFara Pizza</li>
+    <li>Lucali's</li>
+    <li>Sal and Carmine's</li>
+    <li>Juliana's</li>
+    <li>Joe's</li>
 </ol>
 ____ 
 
