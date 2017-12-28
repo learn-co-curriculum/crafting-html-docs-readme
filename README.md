@@ -43,7 +43,8 @@ and a closing `p` tag.
 ```
 
 Elements, like our `p` tags above, won't be displayed in the browser. Instead,
-they affect how the content itself is displayed.
+they affect how the content itself is displayed. Techonologists might say that
+the tags "affect how the content is rendered by the browser."
 
 We can also alter any number of attributes inside of the opening tags. For
 example, the `a` element which is used for links,  has an `href` attribute to
