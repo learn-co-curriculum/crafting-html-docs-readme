@@ -144,7 +144,10 @@ with `h1` being the largest and `h6` being the smallest.
 ```
 
 In addition to changing how the text is displayed, search engines use headers
-to help determine what a web page is about.
+to help determine what a web page is about. Remember, as Avi pointed out, when
+we provide _semantic_ markup, machines can infer the "main points" of a page. A
+well structured article will generally have its principle arguments bracketed
+by low-number header tags -- this very document does exactly that!
 
 #### Images
 
