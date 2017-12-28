@@ -96,9 +96,9 @@ interpret everything inside the tags as HTML code.
 </html>
 ```
 
-Every HTML page is made up of two sections, a `head` and a `body`. The `head`
-element contains metadata about the HTML document and other information for the
-browser, while the `body` element contains the actual content.
+Every HTML page is made up of two primary sections: a `head` and a `body`. The
+`head` element contains metadata about the HTML document and other information
+for the browser, while the `body` element contains the actual content.
 
 ```html
 <!DOCTYPE html>
