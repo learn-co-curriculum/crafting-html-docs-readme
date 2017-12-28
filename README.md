@@ -69,9 +69,16 @@ separate paragraph, we could nest an `a` element inside of a `p`.
 ### Basic HTML Document Structure
 
 All HTML documents begin with a "doctype declaration" tag, which tells our web
-browser which version of HTML to use. Since it's not wrapping any content, our
-doctype declaration doesn't require a closing tag. To use HTML5, the current
-up-to-date version, we can simply declare `<!DOCTYPE html>`.
+browser which version of HTML to use. HTML is a language that is currently
+evolving &mdash; just like English. When we open "Romeo and Juliet," our
+expectation is that the "doctype" is "Elizabethan English." In the same way
+"Elizabethan English" has changed to a more modern form, HTML 1.0 was
+_essentially_ the same as modern HTML5 but had some tags we don't use any more
+and was lacking some tags we use often today.
+
+Since it's not wrapping any content, our doctype declaration doesn't require a
+closing tag. To use HTML5, the current up-to-date version, we can simply
+declare `<!DOCTYPE html>`.
 
 ```html
 <!DOCTYPE html>
