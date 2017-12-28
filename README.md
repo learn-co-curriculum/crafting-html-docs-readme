@@ -8,7 +8,7 @@
 
 ## Lesson
 
-### A quick HTML walkthrough
+### A Quick HTML Walkthrough
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/b1To1wP-ALo?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe><p><a href="https://www.youtube.com/watch?v=b1To1wP-ALo"> HTML walk through </a></p>
 
@@ -101,7 +101,7 @@ browser, while the `body` element contains the actual content.
 </html>
 ```
 
-### Common HTML elements
+### Common HTML Elements
 
 We've already looked at some common HTML elements, such as `a` and `p`. Let's
 take a look at some more HTML elements.
