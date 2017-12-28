@@ -115,6 +115,17 @@ for the browser, while the `body` element contains the actual content.
 </html>
 ```
 
+#### Comments
+
+Let's also take a brief moment to recognize how to add comments into an HTML
+document.  These won't get rendered to the browser at all: they're just helpful
+notes for the author.
+
+```html
+<!-- NYC Pizza is world-famous, cheap, and loved by both vermin and human like! -->
+<p>Top 5 Pizza Places in NYC</p>
+```
+
 ### Common HTML Elements
 
 We've already looked at some common HTML elements, such as `a` and `p`. Let's
@@ -196,13 +207,3 @@ ____
     <li>Joe's</li>
 </ol>
 ____
-
-#### Comments
-
-We can also include comments in our HTML code. These won't get rendered to the
-browser at all: they're just helpful notes for the programmer.
-
-```html
-<h5>Top 5 Pizza Places in NYC</h5>
-<!-- This won't get rendered, just a helpful note -->
-```
