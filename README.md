@@ -156,6 +156,15 @@ doesn't have a closing tag. The `src` attribute tells the browser where to find
 the image. The `alt` attribute will be displayed if an image can't be loaded,
 and also describes the image to search engines.
 
+The `alt` tag presents a moment to talk about an important principle behind Tim
+Berners-Lee's vision for the Web: it is _inclusive_. If you're using assistive
+technologies because you have a sight impairment, it's helpful to know what's
+being displayed. If you're in a remote community where internet access is
+expensive, you might choose to disable images and only pay to download those
+which you _absolutely need_. So while an `img` will inject an image and "work,"
+honoring the Web's vision for openness and inclusivity requires that we provide
+the `alt` tag as well.
+
 `<img src="URL_TO_IMAGE" alt="Picture of a Dog">`
 
 #### Lists
