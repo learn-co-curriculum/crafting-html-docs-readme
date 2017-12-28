@@ -8,6 +8,12 @@
 
 ## Lesson
 
+### Integrating Review
+
+So far we've covered many concepts in small pieces to help you focus your
+learning. This lesson reviews some previously-seen concepts, but will focus on
+_integrating_ them, not _introducing_ them.
+
 ### A Quick HTML Walkthrough
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/b1To1wP-ALo?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe><p><a href="https://www.youtube.com/watch?v=b1To1wP-ALo"> HTML walk through </a></p>
