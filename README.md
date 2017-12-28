@@ -66,7 +66,7 @@ separate paragraph, we could nest an `a` element inside of a `p`.
 <p>This <a href="http://www.google.com">link</a> will be a part of a separate paragraph.</p>
 ```
 
-### Basic Document Structure
+### Basic HTML Document Structure
 
 All HTML documents begin with a "doctype declaration" tag, which tells our web
 browser which version of HTML to use. Since it's not wrapping any content, our
