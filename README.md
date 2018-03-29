@@ -14,10 +14,6 @@ So far we've covered many concepts in small pieces to help you focus your
 learning. This lesson reviews some previously-seen concepts, but will focus on
 _integrating_ them, not _introducing_ them.
 
-### A Quick HTML Walkthrough
-
-<a href="https://www.youtube.com/watch?v=b1To1wP-ALo"> HTML walk through </a></p>
-
 ### What is HTML?
 
 HTML, or HyperText Markup Language, is a markup language which describes the
