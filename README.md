@@ -1,51 +1,58 @@
-# HTML Basics
+# Crafting HTML Documents
+
+## Problem Statement
+
+So far we've been introduced to a lot of vocabulary and have had an
+"experience" writing HTML and thinking deeply about what creates meaning for
+computers and humans alike!
+
+In this next lesson we're going to reconsider the material from the previous
+labs in an "integrating" approach: we're going to be a bit more precise with
+our language and try to "formalize" what you've experienced.
 
 ## Objectives
 
-1. Explain what HTML is and why it's important in the context of web development
-2. Read a basic HTML document
-3. Write basic HTML tags
+1. Identify patterns around tags, markup, and content
+2. Define the document type tag: `<doctype>`
+3. Define the HTML Content Area with the `<html>`, `<head>`, and `<body>` tag
+4. Recognize an HTML Comment
+5. Introduce the Most-Common HTML Elements
 
-## Lesson
+## Identify patterns around tags, markup, and content
 
-### Integrating Review
-
-So far we've covered many concepts in small pieces to help you focus your
-learning. This lesson reviews some previously-seen concepts, but will focus on
-_integrating_ them, not _introducing_ them.
-
-### What is HTML?
+Every web page you've ever seen in a browser is the rendered output of HTML
+that was requested as per the standards of an HTTP request.
 
 HTML, or HyperText Markup Language, is a markup language which describes the
-structure and semantic meaning of web pages. Web browsers, such as Mozilla
-Firefox, Internet Explorer, and Google Chrome interpret the HTML code and use
-it to render output. Unlike Ruby, JavaScript and other programming languages,
-markup languages like HTML don't have any logic behind them. Instead, they
-simply surround the content to convey structure and meaning.
-
-Every web page you've ever visited is structured using HTML code. Being able to
-read and understand an HTML document is one of the most essential tools in a
-developer's toolbox.
+structure and meaning of web content. Web browsers, such as Mozilla Firefox,
+Internet Explorer, and Google Chrome interpret the HTML code and use it to
+create rendered output. Unlike Ruby, JavaScript and other programming
+languages, markup languages like HTML don't have any logic behind them.
 
 ### HTML Syntax
 
-HTML consists of different elements. Each element consists of tags, which wrap
-around content. For example, say we wanted `Hello World` to appear as a
-paragraph. We could use the `p` element, which consists of an opening `p` tag
-and a closing `p` tag.
+#### Tags
+
+HTML consists of different markup _elements_ which are comprised of _markup_
+that "wraps" _content_.  For example, say we wanted `Hello World` to appear as
+a paragraph. We could use the `p` tag, which consists of an opening `p` tag
+and a closing `p` tag. The content wrapped is `Hello World`. Here's the HTML
+code:
 
 ```html
 <p>Hello World</p>
 ```
 
-Elements, like our `p` tags above, won't be displayed in the browser. Instead,
-they affect how the content itself is displayed. Techonologists might say that
-the tags "affect how the content is rendered by the browser."
+Tags, like our `p` tags above, won't be displayed in the browser. Instead, they
+affect how the content itself is displayed. Techonologists say that the tags
+"affect how the content is rendered by the browser."
 
-We can also alter any number of attributes inside of the opening tags. For
+#### Attributes
+
+We can also alter any number of `attributes` inside of the opening tag. For
 example, the `a` element, which is used for links, has an `href` attribute to
 specify the destination address of the link. If we wanted to link to
-www.flatironschool.com, we could do so as follows:
+`www.flatironschool.com`, we could do so as follows:
 
 ```html
 <a href="http://www.flatironschool.com">Flatiron School</a>
@@ -55,22 +62,38 @@ This would render as:
 
 [Flatiron School](http://www.flatironschool.com)
 
-We can also nest elements inside of each other. To have a link displayed as a
-separate paragraph, we could nest an `a` element inside of a `p`.
+#### Nesting of Elements
+
+We can also frequently nest elements inside of each other. To have a link
+displayed as a separate paragraph, we could nest an `a` element inside of a
+`p`.
 
 ```html
 <p>This <a href="http://www.google.com">link</a> will be a part of a separate paragraph.</p>
 ```
 
-### Basic HTML Document Structure
+## Define the document type tag: `<doctype>`
 
-All HTML documents begin with a "doctype declaration" tag, which tells our web
-browser which version of HTML to use. HTML is a language that is currently
-evolving &mdash; just like English. When we open "Romeo and Juliet," our
-expectation is that the "doctype" is "Elizabethan English." In the same way
-"Elizabethan English" has changed to a more modern form, HTML 1.0 was
-_essentially_ the same as modern HTML5 but had some tags we don't use any more
-and was lacking some tags we use often today.
+We'd like to introduce you to a new tag, a tag that defines the _entire_ HTML
+document. Its called the `doctype` tag. Per the HTML standard, all HTML
+documents begin with a "doctype declaration" tag. If one is missing, most
+browsers infer it, but you should always be explicit and define it yourself.
+
+It would have been cumbersome to introduce this first, so we're introducing it
+now (since you've had some hands-on experience with HTML).
+
+Here's another surprise, not _all_ HTML tags have to be explicitly closed. Some
+are considered "self-closing."
+
+Again, it would have been cumbersome to introduce this in your first labs, so
+we're introducing it in a sensible context: the `doctype`.
+
+Anyhow, the "doctype declaration" tag, tells our web browser which version of
+HTML to use. HTML is a language that is currently evolving &mdash; just like
+English. When we open "Romeo and Juliet," our expectation is that the "doctype"
+is "Elizabethan English." In the same way "Elizabethan English" has changed to
+a more modern form, HTML 1.0 was _essentially_ the same as modern HTML5 but had
+some tags we don't use any more and was lacking some tags we use often today.
 
 Since it's not wrapping any content, our doctype declaration doesn't require a
 closing tag. To use HTML5, the current up-to-date version, we can simply
@@ -80,6 +103,8 @@ declare `<!DOCTYPE html>`.
 <!DOCTYPE html>
 
 ```
+
+## Define the HTML Content Area with the `<html>`, `<head>`, and `<body>` tag
 
 Next, we add an opening and closing `html` tag. This tells the web browser to
 interpret everything inside the tags as HTML code.
@@ -111,7 +136,7 @@ for the browser, while the `body` element contains the actual content.
 </html>
 ```
 
-#### Comments
+## Recognize an HTML Comment
 
 Let's also take a brief moment to recognize how to add comments into an HTML
 document.  These won't get rendered to the browser at all: they're just helpful
@@ -122,7 +147,7 @@ notes for the author.
 <p>Top 5 Pizza Places in NYC</p>
 ```
 
-### Common HTML Elements
+### Introduce the Most-Common HTML Elements
 
 We've already looked at some common HTML elements, such as `a` and `p`. Let's
 take a look at some more HTML elements.
@@ -140,10 +165,7 @@ with `h1` being the largest and `h6` being the smallest.
 ```
 
 In addition to changing how the text is displayed, search engines use headers
-to help determine what a web page is about. Remember, as Avi pointed out, when
-we provide _semantic_ markup, machines can infer the "main points" of a page. A
-well structured article will generally have its principle arguments bracketed
-by low-number header tags -- this very document does exactly that!
+to help determine what a web page is about.
 
 #### Images
 
@@ -163,11 +185,15 @@ the `alt` tag as well.
 
 `<img src="URL_TO_IMAGE" alt="Picture of a Dog">`
 
+The `<img>` tag is also an example of a self-closing tag. You don't have to
+write:
+
+`<img src="URL_TO_IMAGE" alt="Picture of a Dog"></img>`
+
 #### Lists
 
-Some other useful HTML elements are lists. We can make bulleted, or unordered
-lists, using opening and closing `ul` tags. Inside, we can nest an `li`, or
-"list item" element for each item on our list.
+We can make bulleted, or unordered lists, using opening and closing `ul` tags.
+Inside, we can nest an `li`, or "list item" element for each item on our list.
 
 ```html
 <h5>My Favorite Things in No Particular Order</h5>
@@ -215,3 +241,16 @@ ____
     <li>Joe's</li>
 </ol>
 ____
+
+## Conclusion
+
+With this you now have the knowledge to craft your own, simple HTML documents.
+You should be feeling comfortable with the conepts of markup, tags, and
+content. You've had some practice seeing HTML change rendered text. With this
+lesson we've rolled in some of the "formal rules" of HTML documentation. While
+browsers _generally_ do a great job guessing what you meant, professionalism
+requires us to be mindful of doctype, html, head, and body tags. Tricky HTML is
+often commented in professional contexts as well. Lastly you've been given
+another glance at a list of some of the most-common HTML elements that you'll
+be encountering again and again as you craft your own pages. You're now ready
+to practice, hands-on, your HTML authoring skills!
