@@ -21,7 +21,7 @@ our language and try to "formalize" what you've experienced.
 ## Identify patterns around tags, markup, and content
 
 Every web page you've ever seen in a browser is the rendered output of HTML
-that was requested as per the standards of an HTTP request.
+that was requested as part of an HTTP request.
 
 HTML, or HyperText Markup Language, is a markup language which describes the
 structure and meaning of web content. Web browsers, such as Mozilla Firefox,
@@ -75,7 +75,7 @@ displayed as a separate paragraph, we could nest an `a` element inside of a
 ## Define the document type tag: `<doctype>`
 
 We'd like to introduce you to a new tag, a tag that defines the _entire_ HTML
-document. Its called the `doctype` tag. Per the HTML standard, all HTML
+document. Its called the `doctype` tag. The HTML standard says that all HTML
 documents begin with a "doctype declaration" tag. If one is missing, most
 browsers infer it, but you should always be explicit and define it yourself.
 
