@@ -3,12 +3,11 @@
 ## Problem Statement
 
 So far we've been introduced to a lot of vocabulary and have had an
-"experience" writing HTML and thinking deeply about what creates meaning for
-computers and humans alike!
+"experience" writing HTML and been thinking deeply. Whew!
 
 In this next lesson we're going to reconsider the material from the previous
 labs in an "integrating" approach: we're going to be a bit more precise with
-our language and try to "formalize" what you've experienced.
+our language and try to help summarize what you've experienced.
 
 ## Objectives
 
@@ -79,13 +78,13 @@ document. Its called the `doctype` tag. The HTML standard says that all HTML
 documents begin with a "doctype declaration" tag. If one is missing, most
 browsers infer it, but you should always be explicit and define it yourself.
 
-It would have been cumbersome to introduce this first, so we're introducing it
+It would have been clunky to introduce this first, so we're introducing it
 now (since you've had some hands-on experience with HTML).
 
-Here's another surprise, not _all_ HTML tags have to be explicitly closed. Some
+Here's another surprise, not _all_ HTML tags have to be closed. Some
 are considered "self-closing."
 
-Again, it would have been cumbersome to introduce this in your first labs, so
+Again, it would have been noisy to introduce this in your first labs, so
 we're introducing it in a sensible context: the `doctype`.
 
 Anyhow, the "doctype declaration" tag, tells our web browser which version of
