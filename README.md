@@ -43,7 +43,7 @@ code:
 ```
 
 Tags, like our `p` tags above, won't be displayed in the browser. Instead, they
-affect how the content itself is displayed. Techonologists say that the tags
+affect how the content itself is displayed. Technologists say that the tags
 "affect how the content is rendered by the browser."
 
 #### Attributes
@@ -71,6 +71,10 @@ displayed as a separate paragraph, we could nest an `a` element inside of a
 <p>This <a href="http://www.google.com">link</a> will be a part of a separate paragraph.</p>
 ```
 
+This would render as:
+
+This [link](http://www.google.com) will be a part of a separate paragraph.
+
 ## Define the document type tag: `<doctype>`
 
 We'd like to introduce you to a new tag, a tag that defines the _entire_ HTML
@@ -81,21 +85,21 @@ browsers infer it, but you should always be explicit and define it yourself.
 It would have been clunky to introduce this first, so we're introducing it
 now (since you've had some hands-on experience with HTML).
 
-Here's another surprise, not _all_ HTML tags have to be closed. Some
-are considered "self-closing."
+The `doctype` tag tells our web browser which version of
+HTML to use. HTML is a language that is currently evolving, just like
+English. When we open a book copy of Shakespeare's "Romeo and Juliet,"
+our expectation is that the "doctype" is "Elizabethan English." In the same way "Elizabethan English" has changed to
+the more modern form that English is today, HTML 1.0 was _essentially_ the same as modern HTML5 but had
+some tags we don't use any more, and was lacking some tags we use often today.
+
+Here's another surprise: not _all_ HTML tags have to be explicitly closed. Some
+are considered "self-closing." Since it's not wrapping any content, our doctype declaration doesn't require a
+closing tag. 
 
 Again, it would have been noisy to introduce this in your first labs, so
-we're introducing it in a sensible context: the `doctype`.
+we're introducing now.
 
-Anyhow, the "doctype declaration" tag, tells our web browser which version of
-HTML to use. HTML is a language that is currently evolving &mdash; just like
-English. When we open "Romeo and Juliet," our expectation is that the "doctype"
-is "Elizabethan English." In the same way "Elizabethan English" has changed to
-a more modern form, HTML 1.0 was _essentially_ the same as modern HTML5 but had
-some tags we don't use any more and was lacking some tags we use often today.
-
-Since it's not wrapping any content, our doctype declaration doesn't require a
-closing tag. To use HTML5, the current up-to-date version, we can simply
+To use HTML5, the current up-to-date version, we can simply
 declare `<!DOCTYPE html>`.
 
 ```html
@@ -146,6 +150,10 @@ notes for the author.
 <p>Top 5 Pizza Places in NYC</p>
 ```
 
+This will render as:
+
+Top 5 Pizza Places in NYC
+
 ### Introduce the Most-Common HTML Elements
 
 We've already looked at some common HTML elements, such as `a` and `p`. Let's
@@ -162,6 +170,13 @@ with `h1` being the largest and `h6` being the smallest.
 
 <h6>Different Breeds</h6>
 ```
+
+These would render as:
+# Dogs!
+### Why Dogs are Great
+
+###### Different Breeds
+
 
 In addition to changing how the text is displayed, search engines use headers
 to help determine what a web page is about.
@@ -244,7 +259,7 @@ ____
 ## Conclusion
 
 With this you now have the knowledge to craft your own, simple HTML documents.
-You should be feeling comfortable with the conepts of markup, tags, and
+You should be feeling comfortable with the concepts of markup, tags, and
 content. You've had some practice seeing HTML change rendered text. With this
 lesson we've rolled in some of the "formal rules" of HTML documentation. While
 browsers _generally_ do a great job guessing what you meant, professionalism
