@@ -5,8 +5,7 @@
 So far we've been introduced to a lot of vocabulary and have had an
 "experience" writing HTML.
 
-In this next lesson we're going to introduce you to some of the essential HTML
-tags now that you've written some.
+In this lesson we're going to introduce you to some more essential HTML tags.
 
 ## Objectives
 
@@ -25,7 +24,7 @@ HTML, or HyperText Markup Language, is a markup language which describes the
 structure and meaning of web content. Web browsers, such as Mozilla Firefox,
 Internet Explorer, and Google Chrome interpret the HTML code and use it to
 create rendered output. Unlike Ruby, JavaScript and other programming
-languages, markup languages like HTML can't do logic. You can't write in HTML:
+languages, markup languages like HTML can't process logic. You can't write in HTML:
 "print this line 3 times" or "if it's Thursday, make the heading 'Baloney
 Sandwiches for Lunch!'"
 
@@ -60,7 +59,7 @@ This would render as:
 [Flatiron School](http://www.flatironschool.com)
 
 Attributes will become especially important as we start working with the
-Cascading Style Sheets to make our pages really striking.
+Cascading Style Sheets (CSS) to make our pages look better.
 
 #### Nesting of Elements
 
@@ -155,7 +154,7 @@ This will render as:
 Top 5 Pizza Places in NYC
 
 Once this basic skeleton is in place, we're ready to start introducing content
-that we mark-up with HTML.
+that we can mark-up with HTML.
 
 ### Introduce the Most-Common HTML Elements
 
@@ -176,7 +175,7 @@ with `h1` being the largest and `h6` being the smallest.
 
 These would render as:
 
-# Dogs!
+## Dogs!
 
 ### Why Dogs are Great
 
@@ -268,6 +267,6 @@ content. You've had some practice seeing HTML change rendered text.
 
 With this lesson we've rolled in some of the "formal rules" of HTML.
 While browsers _generally_ do a great job guessing what you
-meant, we want follow pro guidelines.
+meant, we want to follow the guidelines to make sure we don't get any surprises.
 
 Keep practicing!
